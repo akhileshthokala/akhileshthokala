@@ -27,9 +27,9 @@ My current portfolio focuses on:
 
 | Project | What It Demonstrates | Why It Matters |
 |---|---|---|
-| [retail-ops-agent-gcp](https://github.com/akhilesh12354/retail-ops-agent-gcp) | Retail operations agent with synthetic inventory data, BOPIS routing, ship-from-store routing, refusal guardrails, BigQuery adapter, Vertex AI / Gemini adapter, Cloud Run deployment notes, and 42 eval scenarios. | Shows how I would scope and prove a practical Google Cloud AI pilot for a retail customer. |
-| [enterprise-rag-clinical-guidelines](https://github.com/akhilesh12354/enterprise-rag-clinical-guidelines) | RAG pipeline over public CMS policy PDFs with ChromaDB, semantic retrieval, source citations, MCP retrieval tools, and a transparent retrieval-speed benchmark. | Shows governed, source-grounded enterprise knowledge retrieval rather than a generic chatbot. |
-| [mcp-ops-orchestrator](https://github.com/akhilesh12354/mcp-ops-orchestrator) | Multi-tool MCP orchestration with customer lookup, ticket creation, email drafting, structured logs, and a human-in-the-loop approval gate. | Shows how agent systems can be made operationally safe and auditable. |
+| [retail-ops-agent-gcp](https://github.com/akhileshthokala/retail-ops-agent-gcp) | Retail operations agent with synthetic inventory data, BOPIS routing, ship-from-store routing, refusal guardrails, BigQuery adapter, Vertex AI / Gemini adapter, Cloud Run deployment notes, and 42 eval scenarios. | Shows how I would scope and prove a practical Google Cloud AI pilot for a retail customer. |
+| [enterprise-rag-clinical-guidelines](https://github.com/akhileshthokala/enterprise-rag-clinical-guidelines) | RAG pipeline over public CMS policy PDFs with ChromaDB, semantic retrieval, source citations, MCP retrieval tools, and a transparent retrieval-speed benchmark. | Shows governed, source-grounded enterprise knowledge retrieval rather than a generic chatbot. |
+| [mcp-ops-orchestrator](https://github.com/akhileshthokala/mcp-ops-orchestrator) | Multi-tool MCP orchestration with customer lookup, ticket creation, email drafting, structured logs, and a human-in-the-loop approval gate. | Shows how agent systems can be made operationally safe and auditable. |
 
 ## Technical Signal
 
@@ -45,15 +45,15 @@ My current portfolio focuses on:
 
 If you only have five minutes:
 
-1. Open [retail-ops-agent-gcp](https://github.com/akhilesh12354/retail-ops-agent-gcp) and scan the README claim mapping.
+1. Open [retail-ops-agent-gcp](https://github.com/akhileshthokala/retail-ops-agent-gcp) and scan the README claim mapping.
 2. Check `evals/eval_cases.json` for the 42 retail scenarios.
-3. Open [enterprise-rag-clinical-guidelines](https://github.com/akhilesh12354/enterprise-rag-clinical-guidelines) and inspect the MCP server plus benchmark docs.
-4. Open [mcp-ops-orchestrator](https://github.com/akhilesh12354/mcp-ops-orchestrator) and review the MCP process boundaries and HITL design.
+3. Open [enterprise-rag-clinical-guidelines](https://github.com/akhileshthokala/enterprise-rag-clinical-guidelines) and inspect the MCP server plus benchmark docs.
+4. Open [mcp-ops-orchestrator](https://github.com/akhileshthokala/mcp-ops-orchestrator) and review the MCP process boundaries and HITL design.
 
 If you want to run something locally:
 
 ```bash
-git clone https://github.com/akhilesh12354/retail-ops-agent-gcp.git
+git clone https://github.com/akhileshthokala/retail-ops-agent-gcp.git
 cd retail-ops-agent-gcp
 make test
 make eval
@@ -81,6 +81,5 @@ The local demos are already public-safe and deterministic; the cloud pass is abo
 
 ## Contact
 
-- GitHub: [akhilesh12354](https://github.com/akhilesh12354)
+- GitHub: [akhileshthokala](https://github.com/akhileshthokala)
 - Portfolio focus: AI solutions engineering, cloud architecture, agentic workflows, and enterprise integration.
-
